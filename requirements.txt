@@ -1,4 +1,6 @@
 altair
+bs4
 pandas
-streamlit
 pyAFL
+streamlit
+
