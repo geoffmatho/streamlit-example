@@ -10,6 +10,7 @@ team2 = st.selectbox("Team 2", CURRENT_TEAMS)
 
 st.write(team1, team2)
 
-
+players1 = [p.name for p in team1.players]
+st.write(players1)
 filteredPlayers = list(set(team1.players).intersection(team2.players))
 st.write(filteredPlayers)
