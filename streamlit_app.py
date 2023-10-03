@@ -3,17 +3,9 @@ import pandas as pd
 import streamlit as st
 from pyAFL.teams import ALL_TEAMS, CURRENT_TEAMS
 
-"""
-# Welcome to Streamlit!
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+team1 = st.selectbox("Team 1", CURRENT_TEAMS)
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+team2 = st.selectbox("Team 2", CURRENT_TEAMS)
 
-In the meantime, below is an example of what you can do with just a few lines of code:
-"""
-
-CURRENT_TEAMS
-
-
+st.write(team1, team2)
