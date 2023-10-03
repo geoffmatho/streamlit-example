@@ -14,6 +14,6 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-print(CURRENT_TEAMS)
+CURRENT_TEAMS
 
 
