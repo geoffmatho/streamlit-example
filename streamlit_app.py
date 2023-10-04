@@ -6,7 +6,7 @@ from pyAFL.teams import ALL_TEAMS, CURRENT_TEAMS
 
 team1 = st.selectbox("Team 1", CURRENT_TEAMS)
 
-team2 = st.selectbox("Team 2 (Includes options for weird teams)", ALL_TEAMS)
+team2 = st.selectbox("Team 2", CURRENT_TEAMS)
 
 st.write(team1, team2)
 runIt = st.checkbox("Ready to run?")
