@@ -12,7 +12,6 @@ st.write(team1, team2)
 runIt = st.checkbox("Ready to run?")
 
 if runIt:
-
     players1 = [p.name for p in team1.players]
     players2 = [p.name for p in team2.players]
     filteredPlayers = list(set(players1).intersection(players2))
